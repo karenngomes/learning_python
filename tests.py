@@ -1,4 +1,5 @@
 import string
+# strings sao imutaveis
 
 musicos = [('Page', 'guitarrista', 'Led Zeppelin'),
            ('Fripp', 'guitarrista', 'King Crimson')]
@@ -24,3 +25,6 @@ s = st.substitute({'aviso': 'Falta de eletricidade',
                    'quando':'01 de Fevereiro de 2018'})
 
 print(s)
+
+# a **= b >>> a = a ** b
+# a %= b >>> a = a % b

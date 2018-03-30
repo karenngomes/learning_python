@@ -1,5 +1,6 @@
 #parecido com as listas, mas imutaveis
 #parenteses são opcionais
+#nao e possivel aplicar operacoes em tuplas
 t1 = 0,1,2
 print(t1)
 lista = [10,11,12]
