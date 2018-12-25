@@ -4,9 +4,9 @@ class Queue:
     def isEmpty(self):
         return len(self.items) == 0
     def enqueue(self, item):
-        return self.items.append(item)
+        return self.items.append(item) # Big-O: O(1)
     def dequeue(self):
-        return self.items.pop(0)
+        return self.items.pop(0) # Big-O: O(n)
     def size(self):
         return len(self.items)
 """
