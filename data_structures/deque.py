@@ -13,16 +13,3 @@ class Deque:
         return self.items.pop(0)
     def size(self):
         return len(self.items)
-
-d = Deque()
-
-print(d.isEmpty())
-print(d.addRear(4))
-print(d.addRear('dog'))
-print(d.addFront('cat'))
-print(d.addFront(True))	 
-print(d.size())
-print(d.isEmpty())	
-print(d.addRear(8.4)) 
-print(d.removeRear())
-print(d.removeFront())
