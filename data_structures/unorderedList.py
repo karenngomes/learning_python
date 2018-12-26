@@ -1,6 +1,6 @@
 from Node import Node
 
-class UnorderedList():
+class UnorderedList:
     def __init__(self):
         self.head = None
     def add(self, item):
